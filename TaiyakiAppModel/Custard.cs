@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TaiyakiAppModel
 {
-    internal class Custard
+    public class Custard
     {
+        public string Name
+            => "";
+        public int Price
+            => -100;
     }
-}
+}
