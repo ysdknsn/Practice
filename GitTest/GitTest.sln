@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTest", "GitTest.csproj", "{6A135224-1157-4902-9DFF-95F7720D2356}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaiyakiAppTest", "..\TaiyakiAppTest\TaiyakiAppTest.csproj", "{4DD5EA61-560C-4290-B446-01991CEC2B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaiyakiAppModel", "..\TaiyakiAppModel\TaiyakiAppModel.csproj", "{549EBCBE-00FA-4D6F-B88E-AA795DF87B15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6A135224-1157-4902-9DFF-95F7720D2356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A135224-1157-4902-9DFF-95F7720D2356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A135224-1157-4902-9DFF-95F7720D2356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD5EA61-560C-4290-B446-01991CEC2B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD5EA61-560C-4290-B446-01991CEC2B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD5EA61-560C-4290-B446-01991CEC2B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD5EA61-560C-4290-B446-01991CEC2B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549EBCBE-00FA-4D6F-B88E-AA795DF87B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549EBCBE-00FA-4D6F-B88E-AA795DF87B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549EBCBE-00FA-4D6F-B88E-AA795DF87B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549EBCBE-00FA-4D6F-B88E-AA795DF87B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
