@@ -8,9 +8,18 @@ namespace TaiyakiAppModel
 {
     public class Custard
     {
+        public Custard(FixedValue.Size 小)
+        {
+        }
+
         public string Name
             => "";
-        public int Price
-            => -100;
+
+        public FixedValue.Size Size { get; set; }
+
+        public int GetPrice()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -5,12 +5,33 @@ namespace TaiyakiAppTest
     public class CustardTest
     {
         [Fact]
-        public void Constructor()
+        public void SmallConstructor()
         {
-            var custard = new Custard();
+            var custard = new Custard(FixedValue.Size.小);
 
             Assert.Equal("カスタード", custard.Name);
-            Assert.Equal(180, custard.Price);
+            Assert.Equal(160, custard.GetPrice());
+            Assert.Equal(FixedValue.Size.小, custard.Size);
+        }
+
+        [Fact]
+        public void NormalConstructor()
+        {
+            var custard = new Custard(FixedValue.Size.中);
+
+            Assert.Equal("カスタード", custard.Name);
+            Assert.Equal(180, custard.GetPrice());
+            Assert.Equal(FixedValue.Size.中, custard.Size);
+        }
+
+        [Fact]
+        public void BigConstructor()
+        {
+            var custard = new Custard(FixedValue.Size.大);
+
+            Assert.Equal("カスタード", custard.Name);
+            Assert.Equal(200, custard.GetPrice());
+            Assert.Equal(FixedValue.Size.大, custard.Size);
         }
     }
 }
