@@ -27,6 +27,6 @@ namespace TaiyakiAppModel
         }
 
         protected int _price;
-        private FixedValue.Size _size;
+        protected FixedValue.Size _size;
     }
 }
