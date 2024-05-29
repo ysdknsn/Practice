@@ -6,20 +6,15 @@ using System.Threading.Tasks;
 
 namespace TaiyakiAppModel
 {
-    public class Custard
+    public class Custard : Taiyaki
     {
-        public Custard(FixedValue.Size 小)
+        public Custard(FixedValue.Size size)
         {
+            _size = size;
+            _price = FixedValue.CUSTARD_PRICE;
         }
 
-        public string Name
-            => "";
-
-        public FixedValue.Size Size { get; set; }
-
-        public int GetPrice()
-        {
-            throw new NotImplementedException();
-        }
+        public override string Name
+            => FixedValue.CUSTARD_NAME;
     }
 }
