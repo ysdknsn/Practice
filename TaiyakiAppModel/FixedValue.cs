@@ -16,5 +16,10 @@ namespace TaiyakiAppModel
 
         public const int CUSTARD_PRICE = 180;
         public const int BEAN_PASTE_PRICE = 160;
+        public const int KOSHIAN_PRICE = 140;
+
+        public const string CUSTARD_NAME = "カスタード";
+        public const string BEAN_PASTE_NAME = "粒あん";
+        public const string KOSHIAN_NAME = "こしあん";
     }
 }
