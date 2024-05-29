@@ -8,6 +8,7 @@ namespace TaiyakiAppModel
 {
     public static class FixedValue
     {
+        //大：+20、中+0、小-20
         public enum Size
         {
             大,中,小
