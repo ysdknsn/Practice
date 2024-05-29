@@ -14,7 +14,7 @@ namespace TaiyakiAppTest
         {
             var koshian = new Koshian(FixedValue.Size.小);
 
-            Assert.Equal("こしあん", koshian.Name);
+            Assert.Equal(FixedValue.KOSHIAN_NAME, koshian.Name);
             Assert.Equal(140, koshian.GetPrice());
             Assert.Equal(FixedValue.Size.小, koshian.Size);
         }
@@ -24,7 +24,7 @@ namespace TaiyakiAppTest
         {
             var koshian = new Koshian(FixedValue.Size.中);
 
-            Assert.Equal("こしあん", koshian.Name);
+            Assert.Equal(FixedValue.KOSHIAN_NAME, koshian.Name);
             Assert.Equal(160, koshian.GetPrice());
             Assert.Equal(FixedValue.Size.中, koshian.Size);
         }
@@ -34,7 +34,7 @@ namespace TaiyakiAppTest
         {
             var koshian = new Koshian(FixedValue.Size.大);
 
-            Assert.Equal("こしあん", koshian.Name);
+            Assert.Equal(FixedValue.KOSHIAN_NAME, koshian.Name);
             Assert.Equal(180, koshian.GetPrice());
             Assert.Equal(FixedValue.Size.大, koshian.Size);
         }
