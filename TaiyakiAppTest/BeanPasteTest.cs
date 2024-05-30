@@ -14,7 +14,7 @@ namespace TaiyakiAppTest
         {
             var beanPaste = new BeanPaste(FixedValue.Size.小);
 
-            Assert.Equal("粒あん", beanPaste.Name);
+            Assert.Equal(FixedValue.BEAN_PASTE_NAME, beanPaste.Name);
             Assert.Equal(140, beanPaste.GetPrice());
             Assert.Equal(FixedValue.Size.小, beanPaste.Size);
         }
@@ -24,7 +24,7 @@ namespace TaiyakiAppTest
         {
             var beanPaste = new BeanPaste(FixedValue.Size.中);
 
-            Assert.Equal("粒あん", beanPaste.Name);
+            Assert.Equal(FixedValue.BEAN_PASTE_NAME, beanPaste.Name);
             Assert.Equal(160, beanPaste.GetPrice());
             Assert.Equal(FixedValue.Size.中, beanPaste.Size);
         }
@@ -34,7 +34,7 @@ namespace TaiyakiAppTest
         {
             var beanPaste = new BeanPaste(FixedValue.Size.大);
 
-            Assert.Equal("粒あん", beanPaste.Name);
+            Assert.Equal(FixedValue.BEAN_PASTE_NAME, beanPaste.Name);
             Assert.Equal(180, beanPaste.GetPrice());
             Assert.Equal(FixedValue.Size.大, beanPaste.Size);
         }

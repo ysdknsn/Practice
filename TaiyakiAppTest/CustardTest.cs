@@ -9,7 +9,7 @@ namespace TaiyakiAppTest
         {
             var custard = new Custard(FixedValue.Size.小);
 
-            Assert.Equal("カスタード", custard.Name);
+            Assert.Equal(FixedValue.CUSTARD_NAME, custard.Name);
             Assert.Equal(160, custard.GetPrice());
             Assert.Equal(FixedValue.Size.小, custard.Size);
         }
@@ -19,7 +19,7 @@ namespace TaiyakiAppTest
         {
             var custard = new Custard(FixedValue.Size.中);
 
-            Assert.Equal("カスタード", custard.Name);
+            Assert.Equal(FixedValue.CUSTARD_NAME, custard.Name);
             Assert.Equal(180, custard.GetPrice());
             Assert.Equal(FixedValue.Size.中, custard.Size);
         }
@@ -29,7 +29,7 @@ namespace TaiyakiAppTest
         {
             var custard = new Custard(FixedValue.Size.大);
 
-            Assert.Equal("カスタード", custard.Name);
+            Assert.Equal(FixedValue.CUSTARD_NAME, custard.Name);
             Assert.Equal(200, custard.GetPrice());
             Assert.Equal(FixedValue.Size.大, custard.Size);
         }
