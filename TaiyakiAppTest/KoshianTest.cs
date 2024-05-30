@@ -13,7 +13,7 @@ namespace TaiyakiAppTest
         public void SmallConstructor()
         {
             var koshian = new Koshian(FixedValue.Size.小);
-
+            
             Assert.Equal(FixedValue.KOSHIAN_NAME, koshian.Name);
             Assert.Equal(140, koshian.GetPrice());
             Assert.Equal(FixedValue.Size.小, koshian.Size);
