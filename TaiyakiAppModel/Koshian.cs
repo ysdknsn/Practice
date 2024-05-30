@@ -6,18 +6,15 @@ using System.Threading.Tasks;
 
 namespace TaiyakiAppModel
 {
-    public class Koshian
+    public class Koshian : Taiyaki
     {
-        public Koshian(FixedValue.Size 小)
+        public Koshian(FixedValue.Size size)
         {
+            _size = size;
+            _price = FixedValue.KOSHIAN_PRICE;
         }
 
-        public FixedValue.Size Size { get; set; }
-        public string Name { get; set; }
-
-        public int GetPrice()
-        {
-            throw new NotImplementedException();
-        }
+        public override string Name
+            => FixedValue.KOSHIAN_NAME;
     }
 }

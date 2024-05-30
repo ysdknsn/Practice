@@ -6,18 +6,15 @@ using System.Threading.Tasks;
 
 namespace TaiyakiAppModel
 {
-    public class BeanPaste
+    public class BeanPaste : Taiyaki
     {
-        public BeanPaste(FixedValue.Size 小)
+        public BeanPaste(FixedValue.Size size)
         {
+            _size = size;
+            _price = FixedValue.BEAN_PASTE_PRICE;
         }
 
-        public string Name { get; set; }
-        public FixedValue.Size Size { get; set; }
-
-        public int GetPrice()
-        {
-            throw new NotImplementedException();
-        }
+        public override string Name
+            => FixedValue.BEAN_PASTE_NAME;
     }
 }
